@@ -1,0 +1,23 @@
+table,th{
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+tr{
+    border-top: 1px solid #ccc;
+    /* padding: 10px; */
+    transition: .5s;
+    
+}
+tbody tr:hover{
+    background-color: rgba(118, 127, 206, 0.364);;
+}
+table{
+    width: 95%;
+    margin: auto;
+    height: 80vh;
+}
+th, td {
+    height: 70px;
+    padding: 5px;
+}
